@@ -1,0 +1,122 @@
+@media screen and (max-width : 1000px) {
+    p {
+        font-size: 0.9rem;
+        line-height: 1.8rem;
+    }
+
+    .grid-3 {
+        gap: 1rem;
+    }
+
+    .skills_right ul li {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width : 825px) {
+    /* burger */
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .toggle-burger .line_1 {
+        transform: rotate(-45deg) translate(-5px, 7px);
+    }
+
+    .toggle-burger .line_2 {
+        opacity: 0;
+    }
+
+    .toggle-burger .line_3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+    }
+
+    /* nav */
+    nav {
+        position: fixed;
+        width: 50%;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        flex-direction: column;
+        background: var(--primaryBgColor);
+        border-left: 1px solid var(#f1f1f1);
+        z-index: 9;
+        transform: translateX(100%);
+        transition: 0.6s ease-in-out;
+    }
+
+    nav ul {
+        height: 100vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-active {
+        transform: translateX(0);
+    }
+
+    :root {
+        --sectionPadding: 3rem 0;
+    }
+
+    .section_title {
+        font-size: 1.6rem;
+        margin: 0.6rem 0 2.5rem;
+    }
+
+    .pre_title {
+        font-size: 0.8rem;
+    }
+
+    /* hero section */
+    #hero {
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+
+    .hero_right {
+        order: -1;
+        justify-content: center;
+    }
+
+    .hero_right img {
+        width: 70%;
+    }
+
+    .hero_left {
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+
+    .hero_left .pre_title {
+        margin: 0 auto;
+    }
+
+    .hero_name {
+        font-size: 2.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* skills section */
+    .skills_grid {
+        gap: 1rem;
+    }
+
+    .footer {
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (max-width : 640px) {
+    /* title */
+    .section_title {
+        font-size: 1.3rem;
+    }
+
+    .pre_title {
+        font-size: 0.7rem;
+    }
+}
