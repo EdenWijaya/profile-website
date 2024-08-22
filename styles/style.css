@@ -250,7 +250,7 @@ nav ul li a:hover {
 }
 
 /* services section */
-#services {
+/* #services {
     background-color: var(--secondaryBgColor);
     padding: var(--sectionPadding);
 }
@@ -286,6 +286,78 @@ nav ul li a:hover {
 
 .service_icon svg {
     fill: var(--primaryIconColor);
+} */
+
+/* project section*/
+#project {
+    padding: var(--sectionPadding);
+}
+
+.project {
+    border-radius: var(--itemBorderRadius);
+    overflow: hidden;
+    border: 1px solid var(--borderColor);
+}
+
+.project-cover {
+    height: 250px;
+}
+
+.project-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project_info {
+    padding: 2rem 1.5rem;
+}
+
+.project .pre_title {
+    margin: 0 auto;
+}
+
+.project .section_title {
+    text-align: center;
+}
+
+.project_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.project h4 {
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+.project_title a svg:hover {
+    fill: var(--primaryIconColor);
+}
+
+.project_title a svg {
+    transition: 0.2s ease-in-out;
+}
+
+.project_tags {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.project_tags div {
+    font-size: 0.9rem;
+    border: 1px solid var(--borderColor);
+    padding: 0.4rem 1rem;
+    color: var(--secondaryTextColor);
+}
+
+.project p {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
 }
 
 /* layout */
@@ -318,6 +390,14 @@ nav ul li a:hover {
 
 .portfolio_info {
     padding: 2rem 1.5rem;
+}
+
+.portfolios .pre_title {
+    margin: 0 auto;
+}
+
+.portfolios .section_title {
+    text-align: center;
 }
 
 .portfolio_title {
