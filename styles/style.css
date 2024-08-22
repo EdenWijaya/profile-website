@@ -161,6 +161,8 @@ nav ul li a {
 
 nav ul li a:hover {
     color: var(--primaryIconCOlorHover);
+    font-size: 18px;
+    transition: ease-in-out 0.3s;
 }
 
 /* buttons */
