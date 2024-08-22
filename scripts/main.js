@@ -18,6 +18,7 @@ window.onbeforeunload = () => {
     }
 }
 
+// keyframe project
 const texts = ["Project","And", "Experience"];
 let count = 0;
 let index = 0;
@@ -35,7 +36,32 @@ let letter = '';
     if (letter.length === currentText.length) {
         count++;
         index = 0;
-        setTimeout(type, 2000); // Delay before switching to the next text
+        setTimeout(type, 1800); // Delay before switching to the next text
+    } else {
+        setTimeout(type, 100);
+    }
+})();
+
+
+// keyframe portfolio
+const PortTexts = ["Practice","And", "Portfolios"];
+let PortCount = 0;
+let PortIndex = 0;
+let PortCurrentText = '';
+let PortLetter = '';
+
+(function type() {
+    if (PortCount === PortTexts.length) {
+        PortCount = 0;
+    }
+    PortCurrentText = PortTexts[PortCount];
+    PortLetter = PortCurrentText.slice(0, ++PortIndex);
+
+    document.querySelector('.port-text').textContent = PortLetter;
+    if (PortLetter.length === PortCurrentText.length) {
+        PortCount++;
+        PortIndex = 0;
+        setTimeout(type, 1800);
     } else {
         setTimeout(type, 100);
     }

@@ -410,6 +410,10 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.portfolios .section_title .port-text {
+    color: var(--primaryTextCOlor);
+}
+
 .portfolio_title {
     display: flex;
     justify-content: space-between;
