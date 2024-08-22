@@ -365,18 +365,6 @@ nav ul li a:hover {
     margin: 50px;
 }
 
-/* Blinking cursor */
-@keyframes blink {
-        0% {
-        border-color: transparent;
-    }
-}
-
-/* Applying blinking effect */
-.project .services_title {
-    animation: blink 0.75s step-end infinite;
-}
-
 /* layout */
 .grid-3 {
     display: grid;
