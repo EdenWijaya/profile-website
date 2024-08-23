@@ -228,7 +228,7 @@ nav ul li a:hover {
 /* titles */
 .pre_title {
     text-transform: uppercase;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.34rem;
     color: var(--secondaryTextColor);
     position: relative;
     padding-left: 40px;
@@ -345,6 +345,7 @@ nav ul li a:hover {
 
 .project_title a svg:hover {
     fill: var(--primaryIconColor);
+    width: 30px;
 }
 
 .project_title a svg {
@@ -364,11 +365,11 @@ nav ul li a:hover {
     color: var(--secondaryTextColor);
 }
 
-.project p {
+/* .project p {
     display: flex;
     justify-content: center;
     margin: 50px;
-}
+} */
 
 /* layout */
 .grid-3 {

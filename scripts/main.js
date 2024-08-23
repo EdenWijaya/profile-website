@@ -19,7 +19,7 @@ window.onbeforeunload = () => {
 }
 
 // keyframe project
-const texts = ["Project","And", "Experience"];
+const texts = ["Project","And","Experience"];
 let count = 0;
 let index = 0;
 let currentText = '';
@@ -38,13 +38,13 @@ let letter = '';
         index = 0;
         setTimeout(type, 1800); // Delay before switching to the next text
     } else {
-        setTimeout(type, 100);
+        setTimeout(type, 110);
     }
 })();
 
 
 // keyframe portfolio
-const PortTexts = ["Practice","And", "Portfolios"];
+const PortTexts = ["Practice","And","Portfolios"];
 let PortCount = 0;
 let PortIndex = 0;
 let PortCurrentText = '';
