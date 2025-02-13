@@ -36,7 +36,7 @@ let letter = '';
     if (letter.length === currentText.length) {
         count++;
         index = 0;
-        setTimeout(type, 1800); // Delay before switching to the next text
+        setTimeout(type, 1800); 
     } else {
         setTimeout(type, 110);
     }
